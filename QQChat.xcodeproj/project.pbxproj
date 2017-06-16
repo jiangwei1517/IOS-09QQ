@@ -17,6 +17,7 @@
 		3B4D82441EF3AA5D00AE7438 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D82431EF3AA5D00AE7438 /* Message.m */; };
 		3B4D82471EF3AB3A00AE7438 /* MessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D82461EF3AB3A00AE7438 /* MessageFrame.m */; };
 		3B4D824A1EF3C40400AE7438 /* QQCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D82491EF3C40400AE7438 /* QQCellTableViewCell.m */; };
+		3B4D824C1EF3F9F100AE7438 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D824B1EF3F9F100AE7438 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		3B4D82461EF3AB3A00AE7438 /* MessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFrame.m; sourceTree = "<group>"; };
 		3B4D82481EF3C40400AE7438 /* QQCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQCellTableViewCell.h; sourceTree = "<group>"; };
 		3B4D82491EF3C40400AE7438 /* QQCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQCellTableViewCell.m; sourceTree = "<group>"; };
+		3B4D824B1EF3F9F100AE7438 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		3B4D82241EF3A8F400AE7438 /* QQChat */ = {
 			isa = PBXGroup;
 			children = (
+				3B4D824B1EF3F9F100AE7438 /* README.md */,
 				3B4D823F1EF3A91300AE7438 /* Controllers */,
 				3B4D823E1EF3A90A00AE7438 /* Others */,
 				3B4D823D1EF3A90300AE7438 /* Views */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4D824C1EF3F9F100AE7438 /* README.md in Sources */,
 				3B4D822D1EF3A8F400AE7438 /* ViewController.m in Sources */,
 				3B4D824A1EF3C40400AE7438 /* QQCellTableViewCell.m in Sources */,
 				3B4D82441EF3AA5D00AE7438 /* Message.m in Sources */,
@@ -356,6 +360,7 @@
 				3B4D823B1EF3A8F400AE7438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
